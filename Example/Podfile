@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AnyFormatProtocol_Example' do
+  pod 'AnyFormatProtocol', :path => '../'
+
+  target 'AnyFormatProtocol_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

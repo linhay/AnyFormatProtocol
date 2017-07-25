@@ -1,0 +1,16 @@
+PODS:
+  - AnyFormatProtocol (0.1.0)
+
+DEPENDENCIES:
+  - AnyFormatProtocol (from `../`)
+
+EXTERNAL SOURCES:
+  AnyFormatProtocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyFormatProtocol: 6494faf843b4266945432afa1f3833e0a00e9928
+
+PODFILE CHECKSUM: 7448988f954d3ac407cdf1f5318b5bbfb5b653a9
+
+COCOAPODS: 1.3.0.beta.1
