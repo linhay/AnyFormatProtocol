@@ -12,11 +12,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ```Swift
-use: format(Any?,deault: T) -> T 
+use: format<T>(Any?,deault: T) -> T 
 for example:
 let int = format("1",default: 6)   ==> 1
 let int = format(nil,default: 6)   ==> 6
-let int = format(nil)   	   	   ==> 0
+let int = format(nil)    	   ==> 0
 ```
 
 ## Installation
