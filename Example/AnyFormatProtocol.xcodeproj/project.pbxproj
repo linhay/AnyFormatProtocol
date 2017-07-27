@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C41D6E9BC99829D73095598 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C41D6E9BC99829D73095598 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1CA305B57C0550BB7103AFB6 /* Pods-AnyFormatProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatProtocol_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnyFormatProtocol_Tests/Pods-AnyFormatProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		228B65DBBB063528627B962E /* AnyFormatProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnyFormatProtocol.podspec; path = ../AnyFormatProtocol.podspec; sourceTree = "<group>"; };
+		228B65DBBB063528627B962E /* AnyFormatProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnyFormatProtocol.podspec; path = ../AnyFormatProtocol.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AnyFormatProtocol_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnyFormatProtocol_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,8 @@
 		607FACE51AFB9204008FA782 /* AnyFormatProtocol_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnyFormatProtocol_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7AF880B05784612688EFFE72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7AF880B05784612688EFFE72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DD26CA31F29C71D009BCDA6 /* AnyFormatProtocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AnyFormatProtocol.playground; sourceTree = "<group>"; };
 		A016B09F7B86DEBEF9821414 /* Pods_AnyFormatProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyFormatProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A21AF86DBA696023696C1E /* Pods_AnyFormatProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnyFormatProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F91EEF7C1252E7283790A0 /* Pods-AnyFormatProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyFormatProtocol_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnyFormatProtocol_Tests/Pods-AnyFormatProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				9DD26CA31F29C71D009BCDA6 /* AnyFormatProtocol.playground */,
 			);
 			name = "Example for AnyFormatProtocol";
 			path = AnyFormatProtocol;
