@@ -18,21 +18,10 @@ struct Test: AnyFormatProtocol {
     bool   = format(dict["bool"])
     ints   = format(dict["ints"])
   }
-
-}
-
-func format(_ any: Any?,
-                   default value: String = "") -> String {
-  guard let p = any else { return value }
-  var str = ""
-  if let v = p as? String { str = v }
-  else { str = String(describing: p) }
-  if str == "<null>" { return "" }
-  return str
 }
 
 
 let dict1: [String: Any] = ["int": "66",
-                             "double": 12.66]
+                            "double": 12.66]
 Test(dict: dict1)
 

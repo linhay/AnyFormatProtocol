@@ -39,9 +39,9 @@ extension String {
     if let num = NumberFormatter().number(from: self) {
       return num.boolValue
     }
-    switch self {
-    case "true","TRUE","yes","YES": return true
-    case "false","FALSE","no","NO": return false
+    switch self.lowercased() {
+    case "true","yes": return true
+    case "false","no": return false
     default: return nil
     }
   }
