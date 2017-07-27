@@ -22,6 +22,9 @@ struct Test: AnyFormatProtocol {
 
 
 let dict1: [String: Any] = ["int": "66",
-                            "double": 12.66]
+                            "double": 12.66,
+                            "string": 777,
+                            "bool": "yes",
+                            "ints":[22,333]]
 Test(dict: dict1)
 
