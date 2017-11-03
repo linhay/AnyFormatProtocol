@@ -83,6 +83,7 @@ public extension AnyFormatProtocol{
     if let v = p as? [Key: Value] { return v }
     return value
   }
+  
 }
 
 public extension AnyFormatProtocol{
@@ -152,4 +153,40 @@ public extension AnyFormatProtocol{
     if let v = p as? [Key: Value] { return v }
     return value
   }
+  
 }
+
+// MARK: - 优先取非0,非空的值
+public extension AnyFormatProtocol {
+
+ static func value<T>(_ x: T, _ rest: T...) -> T where T : Comparable{
+    let result = ([x] + rest).filter { (item) -> Bool in
+      switch item {
+      case let v as Int where v == 0: return false
+      case let v as Double where v == 0: return false
+      case let v as Float where v == 0: return false
+      case let v as String where v.isEmpty: return false
+      default: return true
+      }
+    }
+    return result.first ?? x
+  }
+  
+  
+  func value<T>(_ x: T, _ rest: T...) -> T where T : Comparable{
+    let result = ([x] + rest).filter { (item) -> Bool in
+      switch item {
+      case let v as Int where v == 0: return false
+      case let v as Double where v == 0: return false
+      case let v as Float where v == 0: return false
+      case let v as String where v.isEmpty: return false
+      default: return true
+      }
+    }
+    return result.first ?? x
+  }
+  
+}
+
+
+

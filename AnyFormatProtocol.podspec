@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'AnyFormatProtocol'
-s.version          = '0.2.0'
+s.version          = '0.3.0'
 s.summary          = '格式化 any? 类型'
 
 s.homepage         = 'https://github.com/bigL055/AnyFormatProtocol'
@@ -13,6 +13,6 @@ s.source_files = ["Sources/*/**","Sources/*/*/**","Sources/**"]
 s.public_header_files = ["Sources/AnyFormatProtocol.h"]
 s.frameworks = ['UIKit','AVFoundation']
 s.requires_arc = true
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 end
