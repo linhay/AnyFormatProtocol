@@ -17,7 +17,7 @@ struct Test: AnyFormatProtocol {
                    format(dict["value2"]),
                    format(dict["value3"]),
                    format(dict["value4"]),
-                   format(dict["value4"]))
+                   format(dict["value5"]))
 
     int    = format(dict["int"])
     double = format(dict["double"])
@@ -33,7 +33,7 @@ let dict1: [String: Any] = ["int": "66",
                             "string": 777,
                             "bool": "yes",
                             "ints":[22,333],
-                            "value1": -1,
+                            "value1": 0,
                             "value2": "23",
                             "value3": 3.25,
                             "value4": 6,

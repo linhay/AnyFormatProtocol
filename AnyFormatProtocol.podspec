@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'AnyFormatProtocol'
-s.version          = '0.4.0'
+s.version          = '0.5.0'
 s.summary          = '格式化 any? 类型'
 
 s.homepage         = 'https://github.com/bigL055/AnyFormatProtocol'
