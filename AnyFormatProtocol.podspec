@@ -5,7 +5,7 @@ s.summary          = '格式化 any? 类型'
 
 s.homepage         = 'https://github.com/bigL055/AnyFormatProtocol'
 s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
-s.author           = { 'linger' => 'linhan.bigl055@outlook.com' }
+s.author           = { 'linger' => 'linhan.linhey@outlook.com' }
 s.source = { :git => 'https://github.com/bigL055/AnyFormatProtocol.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'

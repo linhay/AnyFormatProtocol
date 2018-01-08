@@ -16,7 +16,7 @@ use: format<T>(Any?,deault: T) -> T
 for example:
 let int = format("1",default: 6)   ==> 1
 let int = format(nil,default: 6)   ==> 6
-let int = format(nil)    	   ==> 0
+let int = format(nil)              ==> 0
 ```
 
 ## Installation
@@ -30,7 +30,7 @@ pod "AnyFormatProtocol"
 
 ## Author
 
-linger: linhan.bigl055@outlook.com
+linhey: linhan.linhey@outlook.com
 
 ## License
 
