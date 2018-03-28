@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 s.name             = 'AnyFormatProtocol'
-s.version          = '0.5.0'
+s.version          = '0.5.1'
 s.summary          = '格式化 any? 类型'
 
-s.homepage         = 'https://github.com/bigL055/AnyFormatProtocol'
+s.homepage         = 'https://github.com/linhay/AnyFormatProtocol'
 s.license          = { :type => 'Apache License 2.0', :file => 'LICENSE' }
 s.author           = { 'linger' => 'linhan.linhey@outlook.com' }
-s.source = { :git => 'https://github.com/bigL055/AnyFormatProtocol.git', :tag => s.version.to_s }
+s.source = { :git => 'https://github.com/linhay/AnyFormatProtocol.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 s.source_files = ["Sources/*/**","Sources/*/*/**","Sources/**"]
