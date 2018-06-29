@@ -58,3 +58,10 @@ extension String {
     }
   }
 }
+
+
+extension AnyFormatModel {
+
+
+
+}

@@ -39,10 +39,6 @@ public extension AnyFormatProtocol{
     return AnyFormatModel.format(any, default: value)
   }
   
-  static func format(_ any: Any?, default value: CGFloat = 0) -> CGFloat {
-    return AnyFormatModel.format(any, default: value)
-  }
-  
   static func format(_ any: Any?, default value: Int = 0) -> Int {
     return AnyFormatModel.format(any, default: value)
   }
@@ -77,10 +73,6 @@ public extension AnyFormatProtocol{
   }
   
   func format(_ any: Any?, default value: Float = 0) -> Float {
-    return AnyFormatModel.format(any, default: value)
-  }
-  
-  func format(_ any: Any?, default value: CGFloat = 0) -> CGFloat {
     return AnyFormatModel.format(any, default: value)
   }
   
@@ -133,16 +125,6 @@ struct AnyFormatModel {
     guard let p = any else { return value }
     if let v = p as? NSNumber { return v.floatValue }
     if let v = p as? String { return v.float ?? value }
-    return value
-  }
-  
-  static func format(_ any: Any?,default value: CGFloat = 0) -> CGFloat {
-    guard let p = any else { return value }
-    if let v = p as? NSNumber { return CGFloat(v.doubleValue) }
-    if let v = p as? String {
-      guard let c = v.double else { return value }
-      return CGFloat(c)
-    }
     return value
   }
   
