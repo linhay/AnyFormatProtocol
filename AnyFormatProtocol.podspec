@@ -16,9 +16,9 @@ s.watchos.deployment_target = '2.0'
 s.public_header_files = ['Sources/AnyFormatProtocol.h']
 s.source_files = ['Sources/*/**','Sources/*/*/**','Sources/**']
 
-s.osx.exclude_files = ['Sources/AnyFormatProtocol+UIKit']
-s.watchos.exclude_files = ['Sources/AnyFormatProtocol+UIKit']
-s.tvos.exclude_files = ['Sources/AnyFormatProtocol+UIKit']
+s.osx.exclude_files = ['Sources/AnyFormatProtocol+UIKit.swift']
+s.watchos.exclude_files = ['Sources/AnyFormatProtocol+UIKit.swift']
+s.tvos.exclude_files = ['Sources/AnyFormatProtocol+UIKit.swift']
 
 s.requires_arc = true
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
